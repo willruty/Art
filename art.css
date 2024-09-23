@@ -1,0 +1,150 @@
+*{
+    color: #25282E;
+}
+
+a, i {
+    transition: .3s;
+    text-decoration: none;
+}
+
+.secondary-color{
+    color: #555;
+}
+
+.center-image{
+    background-size: cover;
+    background-position: center;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #25282E;
+    color: #fff;
+    padding: 7px 18px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color: #464646;
+    color: #fff;
+}
+
+/*Header*/
+
+#header{
+    text-align: center;
+    padding: 20px;
+}
+
+#header p{
+    margin-bottom: 0px;
+}
+
+#logo-container{
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    width: 40px;
+    margin-right: 15px;
+}
+
+/*Nav Bar*/
+#navbar{
+    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+
+#navbar a{
+    width: 80px;
+    color: #444;
+}
+
+#navbar a:hover{
+    color: #c1b696;
+}
+
+/*Banner*/
+
+#banner{
+    background-image: url('img/g_1.jpg');
+    height: 400px;
+    border-radius: 10px;
+}
+
+.info{
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button.btn.btn-dark{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/*Posts*/
+#titulo{
+    text-align: center;
+    margin: 20px;
+}
+#img2{
+    background-image: url('img/g_2.jpg');
+}
+#img3{
+    background-image: url('img/g_3.jpg');
+}
+#img4{
+    background-image: url('img/g_4.jpg');
+}
+#img5{
+    background-image: url('img/g_5.jpg');
+}
+#img6{
+    background-image: url('img/g_6.jpg');
+}
+#img7{
+    background-image: url('img/g_7.jpg');
+}
+
+/* Gallery */
+#gallery-container .col-md-6,
+#gallery-container .col-12{
+    margin-bottom: 50px;
+}
+
+.small-image-container{
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer{
+    border-top: 1px solid #ccc;
+    height: 250px;
+    padding: 30px;
+}
+
+footer i{
+    font-size: 20px;
+}
+
+#social-icons-container{
+    padding: 25px;
+}
+
+#social-icons-container div{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    margin: 20px;
+}
+
+a:hover i{
+    color: #c1b696;
+}
